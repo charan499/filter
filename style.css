@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont
+{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 0;
+    border-bottom: 2px solid grey;
+    margin-bottom: 0.2rem;
+}
+
+.container
+{
+    margin: 5px 35px;
+}
+
+
+
+.username
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.login a{
+    text-decoration: none;
+    color: rgb(17, 17, 212);
+}
+.login
+{
+    padding:2px 10px;
+    background-color: rgb(53, 251, 251,0.4);
+    border-radius: 10px;
+}
+
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    top: 0;
+}
+.cont1
+{
+    padding: 1rem 0.5rem;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+#myinput
+{
+    padding: 0.5rem;
+    background-color: rgb(214, 213, 213,0.5);
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.button
+{
+    padding: 0.5rem;
+    border: 0;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.box
+{
+    margin-top: 10rem;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content:center ;
+    
+}
+.list
+{
+    list-style: none;
+
+}
+.card{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209,0.5);
+
+}
+.list li
+{
+    margin-bottom: 5px;
+}
